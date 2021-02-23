@@ -32,7 +32,6 @@ $(document).ready(function() {
 	});
 });	
 
-
 function loadAJAX(cat)
 {
    /* url can be run on a server running PHP or
@@ -62,7 +61,7 @@ function toConsole(data)
 
 function bondJSON(data){
 //JSON processing data goes here
-	toConsole(data);
+	$("#output").text(JSON.stringify(data));
 }
 
 </script>
