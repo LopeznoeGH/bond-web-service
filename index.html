@@ -75,12 +75,11 @@ function bondJSON(data){
 	$.each(data.films,function(i,item){
 
 		let text = `
-				<b>Title</b>: ${item.Title}<br /> 
-                <b>Film #</b>: ${item.Film}<br />
-                <b>Year</b>: ${item.Year}<br />
-                <b>Bond</b>: ${item.Bond}<br />
-                <b>Box Office</b>: ${item.BoxOffice}<br />
-                <b>Writers</b>: ${item.Writers}<br />
+				<b>Name</b>: ${item.Name}<br /> 
+                <b>Generation</b>: ${item.Generation}<br />
+                <b>Primary</b>: ${item.Primary}<br />
+                <b>Secondary</b>: ${item.Secondary}<br />
+                <b>Pokedex</b>: ${item.Pokedex}<br />
 				<div class="pic"><img src ="thumbnails/${item.Image}" /></div> 		
 			`;
 		$("<div></div>").html(text).appendTo("#films");
@@ -90,10 +89,10 @@ function bondJSON(data){
 </script>
 </head>
 	<body>
-	<h1>Bond Web Service</h1>
-		<a href="year" class="category">Bond Films By Year</a><br />
-		<a href="box" class="category">Bond Films By International Box Office Totals</a>
-		<h3 id="filmtitle">Title Will Go Here</h3>
+	<h1>Learn about Pokemon</h1>
+		<a href="year" class="category">Pokemon by Pokedex</a><br />
+		<a href="box" class="category">Pokemon by Primary Type </a>
+		<h3 id="filmtitle">Take a look</h3>
 		<div id="films">
 
 		</div>
