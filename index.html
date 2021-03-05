@@ -16,9 +16,9 @@ function serverSetup(server,cat){
        url = "api.php?cat=" + cat;
    }else{//server is HTML only - simulate web service
        if(cat == "box"){//box office
-           url = "data/pokemon-pokedex.js";
+           url = "data/bond-box-office.js";
        }else{//year
-           url = "data/pokemon-primary.js"; 
+           url = "data/bond-year.js"; 
        }
    }
    return url;
