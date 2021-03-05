@@ -1,6 +1,6 @@
 {
-	"title"; "Pokemon Sorted by Pokedex",
-	"films";[
+	"title": "Pokemon Sorted by Pokedex",
+	"pokemon":[
 			  {
 				"Name":"Bulbasaur",
                 "Generation":1,
