@@ -1,6 +1,6 @@
 {
 	"title": "Pokemon Sorted by Primary Type",
-	"Pokemon":[
+	"films":[
 
 
                 {
