@@ -74,7 +74,7 @@ function pokemonJSON(data){
 	$("#filmtile").html(data.title);
 
 
-	$.each(data.films,function(i,item){
+	$.each(data.films,function(i, item){
 
 		let text = `
 				<b>Name</b>: ${item.Name}<br /> 
@@ -96,7 +96,7 @@ function pokemonJSON(data){
 		<a href="year" class="category">Pokemon by Pokedex</a><br />
 		<a href="box" class="category">Pokemon by Primary Type </a>
 		<h3 id="filmtitle">Take a look</h3>
-		<div id="pokemon">
+		<div id="films">
 
 		</div>
 		<div id="output">Results go here</div>
