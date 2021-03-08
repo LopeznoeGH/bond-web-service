@@ -50,7 +50,7 @@ function loadAJAX(cat)
        type:"GET",
        dataType: "json",
        url:url,
-       success:bondJSON,
+       success:pokemonJSON, 
        error: function(xhr, status, error){ var errorMessage = xhr.status + ': ' + xhr.statusText alert('Error - ' + errorMessage);}
 
    });
@@ -62,7 +62,7 @@ function toConsole(data)
 	console.log(data); //to view,use Chrome console, ctrl + shift + j
 }
 
-function bondJSON(data){
+function pokemonJSON(data){
 //JSON processing data goes here
 	//$("#output").text(JSON.stringify(data));
 
@@ -84,7 +84,8 @@ function bondJSON(data){
                 <b>Pokedex</b>: ${item.Pokedex}<br />
 				<div class="pic"><img src ="thumbnails/${item.Image}" /></div> 		
 			`;
-		$("<div></div>").html(text).appendTo("#pokemon");
+            //alert(text);
+		$("#pokemon").append(text);
 	});
 }
 
