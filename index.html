@@ -16,9 +16,9 @@ function serverSetup(server,cat){
        url = "api.php?cat=" + cat;
    }else{//server is HTML only - simulate web service
        if(cat == "box"){//box office
-           url = "data/pokemon-primary.js";
+           url = "data/bond-box-office.js";
        }else{//year
-           url = "data/pokemon-pokedex.js"; 
+           url = "data/bond-year.js"; 
        }
    }
    return url;
@@ -67,7 +67,7 @@ function pokemonJSON(data){
 	//$("#output").text(JSON.stringify(data));
 
 	//clear the previous  films
-	$("#pokemon").html("");
+	$("#films").html("");
 
 	//write web service title 
 
@@ -85,7 +85,7 @@ function pokemonJSON(data){
 				<div class="pic"><img src ="thumbnails/${item.Image}" /></div> 		
 			`;
             //alert(text);
-		$("#pokemon").append(text);
+		$("#films").append(text);
 	});
 }
 
