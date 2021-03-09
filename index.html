@@ -15,7 +15,7 @@ function serverSetup(server,cat){
    if(server == "php"){//use web service
        url = "api.php?cat=" + cat;
    }else{//server is HTML only - simulate web service
-       if(cat == "box"){//box office
+       if(cat == "pokedex"){//box office
            url = "data/pokemon-primary.js";
        }else{//year
            url = "data/pokemon-pokedex.js"; 
