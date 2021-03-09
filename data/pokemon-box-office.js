@@ -1,81 +1,6 @@
 {
-	"title": "Pokemon Sorted by Primary Type",
-	"pokemon":[
-
-
-        {
-        "Name":"Caterpie",
-        "Generation":1,
-        "Primary":"Bug",
-        "Secondary":"NONE",
-        "Pokedex":10,
-        "Image":"caterpie.jpg",
-
-        },
-        {
-        "Name":"Metapod",
-        "Generation":1,
-        "Primary":"Bug",
-        "Secondary":"NONE",
-        "Pokedex":11,
-        "Image":"metapod.jpg",
-
-        },
-        {
-        "Name":"Butterfree",
-        "Generation":1,
-        "Primary":"Bug",
-        "Secondary":"Flying",
-        "Pokedex":12,
-        "Image":"butterfree.jpg",
-
-        },
-        {
-        "Name":"Pikachu",
-        "Generation":1,
-        "Primary":"Electric",
-        "Secondary":"NONE",
-        "Pokedex":25,
-        "Image":"pikachu.jpg",
-
-        },
-        {
-        "Name":"Raichu",
-        "Generation":1,
-        "Primary":"Electric",
-        "Secondary":"NONE",
-        "Pokedex":26,
-        "Image":"raichu.jpg",
-
-        },
-        {
-        "Name":"Charmander",
-        "Generation":1,
-        "Primary":"Fire",
-        "Secondary":"NONE",
-        "Pokedex":4,
-        "Image":"charmander.jpg",
-
-        },
-        {
-        "Name":"Charmeleon",
-        "Generation":1,
-        "Primary":"Fire",
-        "Secondary":"NONE",
-        "Pokedex":5,
-        "Image":"charmeleon.jpg",
-
-        },
-
-        {
-        "Name":"Charizard",
-        "Generation":1,
-        "Primary":"Fire",
-        "Secondary":"Flying",
-        "Pokedex":6,
-        "Image":"charizard.jpg",
-
-        },
+	"title": "Pokemon Sorted by Pokedex",
+[	"pokemon":
         {
         "Name":"Bulbasaur",
         "Generation":1,
@@ -83,7 +8,6 @@
         "Secondary":"Poison",
         "Pokedex":1,
         "Image":"bulbasaur.jpg",
-
         },
         {
         "Name":"Ivysaur",
@@ -92,7 +16,6 @@
         "Secondary":"Poison",
         "Pokedex":2,
         "Image":"ivysaur.jpg",
-
         },
         {
         "Name":"Venusaur",
@@ -101,43 +24,30 @@
         "Secondary":"Poison",
         "Pokedex":3,
         "Image":"vensuar.jpg",
-
         },
         {
-        "Name":"Weedle",
+        "Name":"Charmander",
         "Generation":1,
-        "Primary":"Grass",
-        "Secondary":"Poison",
-        "Pokedex":13,
-        "Image":"weedle.jpg",
-
-        },
-        {
-        "Name":"Kakuna",
-        "Generation":1,
-        "Primary":"Grass",
-        "Secondary":"Poison",
-        "Pokedex":14,
-        "Image":"kakuna.jpg",
-
-        },
-        {
-        "Name":"Beedrill",
-        "Generation":1,
-        "Primary":"Grass",
-        "Secondary":"Poison",
-        "Pokedex":15,
-        "Image":"beedrill.jpg",
-
-        },
-        {
-        "Name":"Sandshrew",
-        "Generation":1,
-        "Primary":"Ground",
+        "Primary":"Fire",
         "Secondary":"NONE",
-        "Pokedex":27,
-        "Image":"sandshrew.jpg",
-
+        "Pokedex":4,
+        "Image":"charmander.jpg",
+        },
+        {
+        "Name":"Charmeleon",
+        "Generation":1,
+        "Primary":"Fire",
+        "Secondary":"NONE",
+        "Pokedex":5,
+        "Image":"charmeleon.jpg",
+        },
+        {
+        "Name":"Charizard",
+        "Generation":1,
+        "Primary":"Fire",
+        "Secondary":"Flying",
+        "Pokedex":6,
+        "Image":"charizard.jpg",
         },
         {
         "Name":"Squirtle",
@@ -146,7 +56,6 @@
         "Secondary":"NONE",
         "Pokedex":7,
         "Image":"squirtle.jpg",
-
         },
         {
         "Name":"Wartortle",
@@ -155,7 +64,6 @@
         "Secondary":"NONE",
         "Pokedex":8,
         "Image":"wartortle.jpg",
-
         },
         {
         "Name":"Blastoise",
@@ -164,7 +72,54 @@
         "Secondary":"NONE",
         "Pokedex":9,
         "Image":"blastoise.jpg",
-
+        },
+        {
+        "Name":"Caterpie",
+        "Generation":1,
+        "Primary":"Bug",
+        "Secondary":"NONE",
+        "Pokedex":10,
+        "Image":"caterpie.jpg",
+        },
+        {
+        "Name":"Metapod",
+        "Generation":1,
+        "Primary":"Bug",
+        "Secondary":"NONE",
+        "Pokedex":11,
+        "Image":"metapod.jpg",
+        },
+        {
+        "Name":"Butterfree",
+        "Generation":1,
+        "Primary":"Bug",
+        "Secondary":"Flying",
+        "Pokedex":12,
+        "Image":"butterfree.jpg",
+        },
+        {
+        "Name":"Weedle",
+        "Generation":1,
+        "Primary":"Grass",
+        "Secondary":"Poison",
+        "Pokedex":13,
+        "Image":"weedle.jpg",
+        },
+        {
+        "Name":"Kakuna",
+        "Generation":1,
+        "Primary":"Grass",
+        "Secondary":"Poison",
+        "Pokedex":14,
+        "Image":"kakuna.jpg",
+        },
+        {
+        "Name":"Beedrill",
+        "Generation":1,
+        "Primary":"Grass",
+        "Secondary":"Poison",
+        "Pokedex":15,
+        "Image":"beedrill.jpg",
         },
         {
         "Name":"Pidgey",
@@ -173,7 +128,6 @@
         "Secondary":"Flying",
         "Pokedex":16,
         "Image":"pidgey.jpg",
-
         },
         {
         "Name":"Pidgeotto",
@@ -182,7 +136,6 @@
         "Secondary":"Flying",
         "Pokedex":17,
         "Image":"pidgeotto.jpg",
-
         },
         {
         "Name":"Pidgeot",
@@ -191,7 +144,6 @@
         "Secondary":"Flying",
         "Pokedex":18,
         "Image":"pidgeot.jpg",
-
         },
         {
         "Name":"Rattata",
@@ -200,7 +152,6 @@
         "Secondary":"NONE",
         "Pokedex":19,
         "Image":"rattata.jpg",
-
         },
         {
         "Name":"Raticate",
@@ -209,7 +160,6 @@
         "Secondary":"NONE",
         "Pokedex":20,
         "Image":"raticate.jpg",
-
         },
         {
         "Name":"Spearow",
@@ -218,7 +168,6 @@
         "Secondary":"Flying",
         "Pokedex":21,
         "Image":"spearow.jpg",
-
         },
         {
         "Name":"Fearow",
@@ -227,7 +176,6 @@
         "Secondary":"Flying",
         "Pokedex":22,
         "Image":"fearow.jpg",
-
         },
         {
         "Name":"Ekans",
@@ -236,7 +184,6 @@
         "Secondary":"NONE",
         "Pokedex":23,
         "Image":"ekans.jpg",
-
         },
         {
         "Name":"Arbok",
@@ -245,6 +192,30 @@
         "Secondary":"NONE",
         "Pokedex":24,
         "Image":"arbok.jpg",
-        }    
+        },
+        {
+        "Name":"Pikachu",
+        "Generation":1,
+        "Primary":"Electric",
+        "Secondary":"NONE",
+        "Pokedex":25,
+        "Image":"pikachu.jpg",
+        },
+        {
+        "Name":"Raichu",
+        "Generation":1,
+        "Primary":"Electric",
+        "Secondary":"NONE",
+        "Pokedex":26,
+        "Image":"raichu.jpg",
+        },
+        {
+        "Name":"Sandshrew",
+        "Generation":1,
+        "Primary":"Ground",
+        "Secondary":"NONE",
+        "Pokedex":27,
+        "Image":"sandshrew.jpg",
+        }
     ]
 }

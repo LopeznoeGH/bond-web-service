@@ -28,8 +28,8 @@ if(isset($_REQUEST['cat']))
 {//check to be sure data has been transmitted via GET or POST
 	switch($_REQUEST['cat'])
 	{//determine contents of 'cat'
-		case "pokedex":
-			include('data/pokemon-primary.js'); //"box" orders by box office results
+		case "box":
+			include('data/pokemon-box-office.js'); //"box" orders by box office results
 			break;
 		default:
 			include('data/pokemon-pokedex.js'); //default orders by year
