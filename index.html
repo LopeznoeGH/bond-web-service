@@ -16,10 +16,10 @@
 				}
 				else { // server is HTML only - simulate web service
 					if(cat == "pokedex") { // pokedex
-						url = "data/pokemon-pokedex.js";
+						url = "data/pokemon-primary.js";
 					}
 					else { // type
-						url = "data/pokemon-primary.js"; 
+						url = "data/pokemon-pokedex.js"; 
 					}
 				}
 				return url;
@@ -76,7 +76,7 @@
                     <b>Primary</b>: ${item.Primary}<br />
                     <b>Secondary</b>: ${item.Secondary}<br />
                     <b>Pokedex</b>: ${item.Pokedex}<br />
-                    <div class="pic"><img src ="thumbnails/${item.Image}" /></div> 		
+               <div class="pic"><img src ="thumbnails/${item.Image}"/></div> 		
                 `;
 					
 					$("#pokemon").append(text);
