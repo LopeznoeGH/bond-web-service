@@ -1,5 +1,5 @@
 <?php
- /**
+/**
  * api.php is a sample API file to be called via AJAX to 
  * deliver the contents of 2 JSON files, one of which orders the 
  * data by year, the other by Box Office Results.
@@ -29,10 +29,10 @@ if(isset($_REQUEST['cat']))
 	switch($_REQUEST['cat'])
 	{//determine contents of 'cat'
 		case "box":
-			include('data/pokemon-box-office.js'); //"box" orders by box office results
+			include('data/bond-box-office.js'); //"box" orders by box office results
 			break;
 		default:
-			include('data/pokemon-pokedex.js'); //default orders by year
+			include('data/bond-year.js'); //default orders by year
 	}
 }else{//if not data sent, inform calling application
 	echo "Incorrect parameter sent";
