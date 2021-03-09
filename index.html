@@ -70,14 +70,15 @@
 
 				$.each(data.pokemon, function(i, item){
                     let text = `
-                        <div>
+                <div>
                     <b>Name</b>: ${item.Name}<br /> 
                     <b>Generation</b>: ${item.Generation}<br />
                     <b>Primary</b>: ${item.Primary}<br />
                     <b>Secondary</b>: ${item.Secondary}<br />
                     <b>Pokedex</b>: ${item.Pokedex}<br />
-               <div class="pic"><img src ="thumbnails/${item.Image}"/></div> 		
-                `;
+                    <div class="pic"><img src ="thumbnails/${item.Image}"/></div> 		
+
+                </div> `;
 					
 					$("#pokemon").append(text);
 				});
@@ -87,8 +88,8 @@
 	
 	<body>
 		<h1>Pokemon Web Service</h1>
-		<a href="pokedex" class="category">Pokemon by Pokedex Number</a><br />
-		<a href="primary" class="category">Pokemon by Primary Type</a>
+		<a href="primary" class="category">Pokemon by Pokedex Number</a><br />
+		<a href="pokedex" class="category">Pokemon by Primary Type</a>
 		<h3 id="pokemontitle">Title Will Go Here</h3>
 		<div id="pokemon">
 			Results go here
