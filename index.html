@@ -1,104 +1,97 @@
 <html>
-<head>
-<title>Bond Web Service Demo</title>
-<link rel="stylesheet" href="css/bond.css" />
-<style>
-body {font-family:georgia;}
-</style>
-<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+	<head>
+		<title>Pokemon Web Service Demo</title>
+		<style>
+			body {font-family:georgia;}
+		</style>
+		<link rel="stylesheet" href="css/bond.css"/>
+		<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 
-<script type="text/javascript">
+		<script type="text/javascript">
+			function serverSetup(server, cat) {
+				server = server.toLowerCase();
+				let url = "";
+				if(server == "php") { // use web service
+					url = "api.php?cat=" + cat;
+				}
+				else { // server is HTML only - simulate web service
+					if(cat == "pokedex") { // pokedex
+						url = "data/pokemon-pokedex.js";
+					}
+					else { // type
+						url = "data/pokemon-primary.js"; 
+					}
+				}
+				return url;
+			}
 
-function serverSetup(server,cat){
-   server = server.toLowerCase();
-   let url = "";
-   if(server == "php"){//use web service
-       url = "api.php?cat=" + cat;
-   }else{//server is HTML only - simulate web service
-       if(cat == "pokedex"){//box office
-           url = "data/pokemon-primary.js";
-       }else{//year
-           url = "data/pokemon-pokedex.js"; 
-       }
-   }
-   return url;
-}
-
-$(document).ready(function() {  
-
-	$('.category').click(function(e){
-        e.preventDefault(); //stop default action of the link
-		cat = $(this).attr("href");  //get category from URL
-		loadAJAX(cat);  //load AJAX and parse JSON file
-	});
-});	
-
-function loadAJAX(cat)
-{
-   /* url can be run on a server running PHP or
-      use the a standard HTML server
- 
-      Indicate below if server is PHP or HTML
- 
-      let url = serverSetup("php",cat); //setup to run against PHP server
-      let url = serverSetup("html",cat); //setup to run against HTML server
-   */
-  
-   let url = serverSetup("html",cat);
-  
-   $.ajax({
-       type:"GET",
-       dataType: "json",
-       url:url,
-       success:pokemonJSON, 
-       //error: function(xhr, status, error){ var errorMessage = xhr.status + ': ' + xhr.statusText alert('Error - ' + errorMessage);}
-
-   });
-}
-
-    
-function toConsole(data)
-{//return data to console for JSON examination
-	console.log(data); //to view,use Chrome console, ctrl + shift + j
-}
-
-function pokemonJSON(data){
-//JSON processing data goes here
-	//$("#output").text(JSON.stringify(data));
-
-	//clear the previous  films
-	$("#pokemon").html("");
-
-	//write web service title 
-
-	$("#pokemontitle").html(data.title);
+			$(document).ready(function() {  
+				$('.category').click(function(e) {
+					e.preventDefault(); // stop default action of the link
+					cat = $(this).attr("href");  // get category from URL
+					loadAJAX(cat);  // load AJAX and parse JSON file
+				});
+			});	
 
 
-	$.each(data.pokemon,function(i, item){
+			function loadAJAX(cat) {
+				/* url can be run on a server running PHP or
+					use the a standard HTML server
+					Indicate below if server is PHP or HTML
+					let url = serverSetup("php",cat); //setup to run against PHP server
+					let url = serverSetup("html",cat); //setup to run against HTML server
+				*/
+				
+				let url = serverSetup("html", cat);
+				
+				$.ajax({
+					type: "GET",
+					dataType: "json",
+					url: url,
+					success: pokemonJSON
+				});
+			}
+			
+			function toConsole(data) {
+				// return data to console for JSON examination
+				console.log(data);
+			}
 
-		let text = `
-				<b>Name</b>: ${item.Name}<br /> 
-                <b>Generation</b>: ${item.Generation}<br />
-                <b>Primary</b>: ${item.Primary}<br />
-                <b>Secondary</b>: ${item.Secondary}<br />
-                <b>Pokedex</b>: ${item.Pokedex}<br />
-				<div class="pic"><img src ="thumbnails/${item.Image}" /></div> 		
-			`;
-            //alert(text);
-		$("#pokemon").append(text);
-	});
-}
+			function pokemonJSON(data) {
+				// JSON processing data goes here
+				// toConsole(data);
+				// $("#output").text(JSON.stringify(data));
 
-</script>
-</head>
+				// clear previous pokemon
+				$("#pokemon").html("");
+
+				// write web service title
+				$("#pokemontitle").html(data.title);
+
+				$.each(data.pokemon, function(i, item){
+                    let text = `
+                        <div>
+                    <b>Name</b>: ${item.Name}<br /> 
+                    <b>Generation</b>: ${item.Generation}<br />
+                    <b>Primary</b>: ${item.Primary}<br />
+                    <b>Secondary</b>: ${item.Secondary}<br />
+                    <b>Pokedex</b>: ${item.Pokedex}<br />
+                    <div class="pic"><img src ="thumbnails/${item.Image}" /></div> 		
+                `;
+					
+					$("#pokemon").append(text);
+				});
+			}
+		</script>
+	</head>
+	
 	<body>
-	<h1>Learn about Pokemon</h1>
-		<a href="pokedex" class="category">Pokemon by Pokedex</a><br />
-		<a href="primary" class="category">Pokemon by Primary Type </a>
-		<h3 id="pokemontitle">Take a look</h3>
+		<h1>Pokemon Web Service</h1>
+		<a href="pokedex" class="category">Pokemon by Pokedex Number</a><br />
+		<a href="primary" class="category">Pokemon by Primary Type</a>
+		<h3 id="pokemontitle">Title Will Go Here</h3>
 		<div id="pokemon">
-
+			Results go here
 		</div>
-		<div id="output">Results go here</div>
 	</body>
 </html>
