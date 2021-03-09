@@ -1,5 +1,5 @@
 {
-	"title": "Pokemon Sorted by Pokedex",
+	"pokemontitle": "Pokemon Sorted by Pokedex",
 	"pokemon":[
 			  {
 				"Name":"Bulbasaur",

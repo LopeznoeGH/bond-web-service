@@ -71,7 +71,7 @@ function pokemonJSON(data){
 
 	//write web service title 
 
-	$("#filmtile").html(data.title);
+	$("#pokemontitle").html(data.title);
 
 
 	$.each(data.pokemon,function(i, item){
@@ -93,9 +93,9 @@ function pokemonJSON(data){
 </head>
 	<body>
 	<h1>Learn about Pokemon</h1>
-		<a href="year" class="category">Pokemon by Pokedex</a><br />
-		<a href="box" class="category">Pokemon by Primary Type </a>
-		<h3 id="filmtitle">Take a look</h3>
+		<a href="pokedex" class="category">Pokemon by Pokedex</a><br />
+		<a href="primary" class="category">Pokemon by Primary Type </a>
+		<h3 id="pokemontitle">Take a look</h3>
 		<div id="pokemon">
 
 		</div>

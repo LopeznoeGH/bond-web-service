@@ -1,5 +1,5 @@
 {
-	"title": "Pokemon Sorted by Primary Type",
+	"pokemontitle": "Pokemon Sorted by Primary Type",
 	"pokemon":[
 
 
