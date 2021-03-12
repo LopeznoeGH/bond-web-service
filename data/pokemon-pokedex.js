@@ -2,138 +2,138 @@
 	"title": "Pokemon Sorted by Pokedex Number",
 	"pokemon": [
 		{
-            "Name": "Treecko",
-            "PokedexNumber": 252,
+            "Name": "Bulbasaur",
+            "PokedexNumber": 1,
             "Generation": 1,
             "PrimaryType": "Grass",
-            "SecondaryType": "NONE",
-			"Image": "treecko.png"
+            "SecondaryType": "Poison",
+			"Image": "bulbasaur.png"
         },
 
         {
-            "Name": "Grovyle",
+            "Name": "Ivysaur",
             "PokedexNumber": 2,
             "Generation": 1,
             "PrimaryType": "Grass",
-            "SecondaryType": "NONE",
-			"Image": "grovyle.png"
+            "SecondaryType": "Poison",
+			"Image": "ivysaur.png"
         },
 
 		{
-            "Name": "Sceptile",
-            "PokedexNumber": 254,
+            "Name": "Venusaur",
+            "PokedexNumber": 3,
             "Generation": 1,
             "PrimaryType": "Grass",
-            "SecondaryType": "NONE",
-			"Image": "sceptile.png"
+            "SecondaryType": "Poison",
+			"Image": "venusaur.png"
         },
 
         {
-            "Name": "Torchic",
-            "PokedexNumber": 255,
+            "Name": "Charmander",
+            "PokedexNumber": 4,
             "Generation": 1,
             "PrimaryType": "Fire",
-            "SecondaryType": "NONE",
-			"Image": "torchic.png"
+            "SecondaryType": "N/A",
+			"Image": "charmander.png"
         },
 
         {
-            "Name": "Combusken",
-            "PokedexNumber": 256,
+            "Name": "Charmeleon",
+            "PokedexNumber": 5,
             "Generation": 1,
             "PrimaryType": "Fire",
-            "SecondaryType": "Fighting",
-			"Image": "combusken.png"
+            "SecondaryType": "N/A",
+			"Image": "charmeleon.png"
         },
 
         {
-            "Name": "Blaziken",
-            "PokedexNumber": 257,
+            "Name": "Charizard",
+            "PokedexNumber": 6,
             "Generation": 1,
             "PrimaryType": "Fire",
-            "SecondaryType": "Fighting",
-			"Image": "blaziken.png"
+            "SecondaryType": "Flying",
+			"Image": "charizard.png"
         },
 
         {
-            "Name": "Mudkip",
-            "PokedexNumber": 258,
+            "Name": "Squirtle",
+            "PokedexNumber": 7,
             "Generation": 1,
             "PrimaryType": "Water",
-            "SecondaryType": "NONE",
-			"Image": "mudkip.png"
+            "SecondaryType": "N/A",
+			"Image": "squirtle.png"
         },
 
         {
-            "Name": "Marshtomp",
-            "PokedexNumber": 259,
+            "Name": "Wartortle",
+            "PokedexNumber": 8,
             "Generation": 1,
             "PrimaryType": "Water",
-            "SecondaryType": "Ground",
-			"Image": "marshtop.png"
+            "SecondaryType": "N/A",
+			"Image": "wartortle.png"
         },
 
         {
-            "Name": "Swampert",
-            "PokedexNumber": 260,
+            "Name": "Blastoise",
+            "PokedexNumber": 9,
             "Generation": 1,
             "PrimaryType": "Water",
-            "SecondaryType": "Ground",
-			"Image": "swampert.png"
+            "SecondaryType": "N/A",
+			"Image": "blastoise.png"
         },
 
         {
-            "Name": "Poochyena",
-            "PokedexNumber": 261,
-            "Generation": 1,
-            "PrimaryType": "Dark",
-            "SecondaryType": "NONE",
-			"Image": "poopchyena.png"
-        },
-
-        {
-            "Name": "Mightyena",
-            "PokedexNumber": 262,
-            "Generation": 1,
-            "PrimaryType": "Dark",
-            "SecondaryType": "NONE",
-			"Image": "mightyena.png"
-        },
-
-        {
-            "Name": "Zigzagoon",
-            "PokedexNumber": 263,
-            "Generation": 1,
-            "PrimaryType": "Normal",
-            "SecondaryType": "NONE",
-			"Image": "zigzagoon.png"
-        },
-
-        {
-            "Name": "Linoone",
-            "PokedexNumber": 264,
-            "Generation": 1,
-            "PrimaryType": "Normal",
-            "SecondaryType": "NONE",
-			"Image": "linoone.png"
-        },
-
-        {
-            "Name": "Wurmple",
-            "PokedexNumber": 265,
+            "Name": "Caterpie",
+            "PokedexNumber": 10,
             "Generation": 1,
             "PrimaryType": "Bug",
-            "SecondaryType": "NONE",
-			"Image": "wurmple.png"
+            "SecondaryType": "N/A",
+			"Image": "caterpie.png"
         },
 
         {
-            "Name": "Silcoon",
-            "PokedexNumber": 266,
+            "Name": "Metapod",
+            "PokedexNumber": 11,
             "Generation": 1,
             "PrimaryType": "Bug",
-            "SecondaryType": "NONE",
-			"Image": "silcoon.png"
+            "SecondaryType": "N/A",
+			"Image": "metapod.png"
+        },
+
+        {
+            "Name": "Butterfree",
+            "PokedexNumber": 12,
+            "Generation": 1,
+            "PrimaryType": "Bug",
+            "SecondaryType": "Flying",
+			"Image": "butterfree.png"
+        },
+
+        {
+            "Name": "Weedle",
+            "PokedexNumber": 13,
+            "Generation": 1,
+            "PrimaryType": "Bug",
+            "SecondaryType": "Poison",
+			"Image": "weedle.png"
+        },
+
+        {
+            "Name": "Kakuna",
+            "PokedexNumber": 14,
+            "Generation": 1,
+            "PrimaryType": "Bug",
+            "SecondaryType": "Poison",
+			"Image": "kakuna.png"
+        },
+
+        {
+            "Name": "Beedrill",
+            "PokedexNumber": 15,
+            "Generation": 1,
+            "PrimaryType": "Bug",
+            "SecondaryType": "Poison",
+			"Image": "beedrill.png"
         }
 	]
 }
