@@ -70,7 +70,7 @@
             "Generation": 1,
             "PrimaryType": "Water",
             "SecondaryType": "Ground",
-			"Image": "marshtomp.png"
+			"Image": "marshtop.png"
         },
 
         {
@@ -88,7 +88,7 @@
             "Generation": 1,
             "PrimaryType": "Dark",
             "SecondaryType": "NONE",
-			"Image": "poochyena.png"
+			"Image": "poopchyena.png"
         },
 
         {
