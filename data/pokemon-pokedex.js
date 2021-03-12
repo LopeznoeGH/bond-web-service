@@ -70,7 +70,7 @@
             "Generation": 1,
             "PrimaryType": "Water",
             "SecondaryType": "N/A",
-			"Image": "poopcheyna.png"
+			"Image": "poopchyena.png"
         },
 
         {
@@ -124,7 +124,7 @@
             "Generation": 1,
             "PrimaryType": "Bug",
             "SecondaryType": "Poison",
-			"Image": "wrumple.png"
+			"Image": "wurmple.png"
         },
 
         {

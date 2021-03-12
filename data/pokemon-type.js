@@ -133,7 +133,7 @@
             "Generation": 1,
             "PrimaryType": "Fire",
             "SecondaryType": "Flying",
-			"Image": "blakizen.png"
+			"Image": "blaziken.png"
         }
 	]
 }
