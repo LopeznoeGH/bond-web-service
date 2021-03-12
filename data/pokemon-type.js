@@ -7,7 +7,7 @@
             "Generation": 1,
             "PrimaryType": "Bug",
             "SecondaryType": "NONE",
-			"Image": "Silcoon.png"
+			"Image": "silcoon.png"
         },
 
         {
