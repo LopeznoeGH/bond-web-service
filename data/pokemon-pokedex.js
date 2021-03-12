@@ -7,7 +7,7 @@
             "Generation": 1,
             "PrimaryType": "Grass",
             "SecondaryType": "Poison",
-			"Image": "bulbasaur.png"
+			"Image": "blaziken.png"
         },
 
         {
@@ -16,7 +16,7 @@
             "Generation": 1,
             "PrimaryType": "Grass",
             "SecondaryType": "Poison",
-			"Image": "ivysaur.png"
+			"Image": "combusken.png"
         },
 
 		{
@@ -25,7 +25,7 @@
             "Generation": 1,
             "PrimaryType": "Grass",
             "SecondaryType": "Poison",
-			"Image": "venusaur.png"
+			"Image": "grovyle.png"
         },
 
         {
@@ -34,7 +34,7 @@
             "Generation": 1,
             "PrimaryType": "Fire",
             "SecondaryType": "N/A",
-			"Image": "charmander.png"
+			"Image": "linoone.png"
         },
 
         {
@@ -43,7 +43,7 @@
             "Generation": 1,
             "PrimaryType": "Fire",
             "SecondaryType": "N/A",
-			"Image": "charmeleon.png"
+			"Image": "marshtop.png"
         },
 
         {
@@ -52,7 +52,7 @@
             "Generation": 1,
             "PrimaryType": "Fire",
             "SecondaryType": "Flying",
-			"Image": "charizard.png"
+			"Image": "mightyena.png"
         },
 
         {
@@ -61,7 +61,7 @@
             "Generation": 1,
             "PrimaryType": "Water",
             "SecondaryType": "N/A",
-			"Image": "squirtle.png"
+			"Image": "mudkip.png"
         },
 
         {
@@ -70,7 +70,7 @@
             "Generation": 1,
             "PrimaryType": "Water",
             "SecondaryType": "N/A",
-			"Image": "wartortle.png"
+			"Image": "poopcheyna.png"
         },
 
         {
@@ -79,7 +79,7 @@
             "Generation": 1,
             "PrimaryType": "Water",
             "SecondaryType": "N/A",
-			"Image": "blastoise.png"
+			"Image": "sceptile.png"
         },
 
         {
@@ -88,7 +88,7 @@
             "Generation": 1,
             "PrimaryType": "Bug",
             "SecondaryType": "N/A",
-			"Image": "caterpie.png"
+			"Image": "silcoon.png"
         },
 
         {
@@ -97,7 +97,7 @@
             "Generation": 1,
             "PrimaryType": "Bug",
             "SecondaryType": "N/A",
-			"Image": "metapod.png"
+			"Image": "swampert.png"
         },
 
         {
@@ -106,7 +106,7 @@
             "Generation": 1,
             "PrimaryType": "Bug",
             "SecondaryType": "Flying",
-			"Image": "butterfree.png"
+			"Image": "torchic.png"
         },
 
         {
@@ -115,7 +115,7 @@
             "Generation": 1,
             "PrimaryType": "Bug",
             "SecondaryType": "Poison",
-			"Image": "weedle.png"
+			"Image": "treecko.png"
         },
 
         {
@@ -124,7 +124,7 @@
             "Generation": 1,
             "PrimaryType": "Bug",
             "SecondaryType": "Poison",
-			"Image": "kakuna.png"
+			"Image": "wrumple.png"
         },
 
         {
@@ -133,7 +133,7 @@
             "Generation": 1,
             "PrimaryType": "Bug",
             "SecondaryType": "Poison",
-			"Image": "beedrill.png"
+			"Image": "zigzagoon.png"
         }
 	]
 }
