@@ -1,5 +1,5 @@
 {
-	"title": "Pokemon Sorted by Pokedex Number",
+	"title": "Pokemon Sorted by Pokedex primary type",
 	"pokemon": [
 		{
             "Name": "Treecko",
